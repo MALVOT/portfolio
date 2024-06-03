@@ -1,0 +1,44 @@
+body{
+    background-image: url(../image/texture.jpg);
+    background-size: cover;
+}
+menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: cadetblue;
+   
+}
+main{
+    background-image: url(../image/erreur.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+text-align: center;
+width: 100%;    
+}
+img.retour{
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px white;
+    width: 50px;
+    height: 50px
+}
+img.logo1{
+    max-width: 40px;
+    max-height: 40px;
+}
+img.logo2{
+    max-width: 40px;
+    max-height: 40px;
+}

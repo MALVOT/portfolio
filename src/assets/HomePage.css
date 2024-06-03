@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#ff00009a;
+
+}
+menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    box-shadow: 0px 0px 10px 10px yellow;
+}
+img.retour{
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px white;
+    width: 40px;
+    height: 40px;
+}
+img.CV{
+    width: 50px;
+    height: 50px;
+}
+img.Cahier{
+    width: 50px;
+    height: 50px;
+}
+img.Commentaire{
+    width: 50px;
+    height: 50px;
+}
+form{
+    background-color: brown;
+}
+
+div{
+    display: block;
+    
+}
+.align{
+    display: flex;
+    flex-direction: column;
+}
+.champs1{
+    padding-left: 1rem;
+   
+}
+.champs2{
+    padding-left: 1rem;
+    
+}
+.champs3{
+    padding-left: 1rem;
+    
+}
+.champs4{
+    padding-left: 1rem;
+}
+.dimension1{
+    width: 15%;
+    font-size: 1.5em;
+    border: solid 2px;
+}
+.dimension2{
+width: 15%;
+font-size: 1.5em;
+border: solid 2px;
+}
+.dimension3{
+    width: 20%;
+    font-size: 1.5em;
+    border: solid 2px;
+}
+.dimension4{
+    width: 50%;
+    font-size: 5em;
+    border: solid 2px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    position:absolute;
+    bottom: 0;
+}
+img.logo1{
+    max-width: 40px;
+    max-height: 40px;
+}
+img.logo2{
+    max-width: 40px;
+    max-height: 40px;
+}

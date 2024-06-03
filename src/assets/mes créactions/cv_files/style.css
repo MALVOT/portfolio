@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Raleway"sans-serif;
+    src: url("../front/Raleway-Bold.ttf");
+    src: url("../front/Raleway-Bold.woff");
+    src: url("../front/Raleway-Italic.ttf");
+    src: url("../front/Raleway-Italic.woff");
+    src: url("../front/Raleway-Light.ttf");
+    src: url("../front/Raleway-Light.woff");
+}
+body{
+    max-width: 1160px;
+    margin: 0px 0px 0px 347px
+}
+header{
+           display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+        background-color: #782221;
+        color: white;
+        height: 400px;
+    }
+    img.logo1{
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px white;
+    width: 150px;
+    height: 150px;
+}
+img.logo1:hover{
+    cursor:zoom-in ;
+}
+address{
+    display: flex;
+    justify-content: space-around;
+    width: 1160px;
+    background-color: black;
+}
+a {color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h2{
+    color: black;
+    background-color: wheat;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    border-left: 6px solid #6D071A;
+}
+h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+h3:hover{
+    border-right: 6px solid #6D071A;
+}
+ul{
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.element1{
+    box-sizing: border-box;
+    width: 300%;
+    padding-right: 105px;
+    padding-left: 50px;
+    border-right: 3px solid black;
+}
+.element2{
+    box-sizing: border-box;
+    padding-right: 53px;
+    background-color: #782221;
+    color: white;
+}
+.indentation{
+    text-indent: 20%;
+    padding: 20px;
+}
+footer {
+height: 80px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-wrap: wrap;
+background-color: #782221;
+color: white;
+}
+img.logo2{
+    max-width: 40px;
+    max-height: 40px;
+}
+img.logo3{
+    max-width: 40px;
+    max-height: 40px;
+}
+img.logo4{
+    max-width: 40px;
+    max-height: 40px;
+}
+img.logo2:hover{
+    opacity: 65%;
+   }
+   img.logo3:hover{
+    opacity: 65%;
+   }
+   img.logo4:hover{
+    opacity: 65%;
+   }
+   li:hover{
+    border-right: 6px solid #6D071A;
+   }
