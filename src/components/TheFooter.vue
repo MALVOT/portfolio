@@ -17,12 +17,23 @@
    </template>
 
    <style scoped>
+footer{
+    height: 80px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-wrap: wrap;
+background-color: #782221;
+color: white;
+}
+
 img{
     max-width: 40px;
     max-height: 40px;
 }
- footer{
-    background-color: beige;
- } 
+ 
+ 
    </style>
 

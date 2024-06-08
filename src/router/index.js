@@ -17,12 +17,12 @@ const router = createRouter({
       component: NotFound,
 
     },
-    {
+   {
       path:'/toto',
       name:'toto',
       component: TheToto,
 
-    },
+   },
   ],
 });
 //<script>  

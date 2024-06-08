@@ -5,11 +5,15 @@ import { RouterView } from 'vue-router';
 </script>
 
 <template>
+    <body>
     <TheHeader />
     <RouterView />
     <TheFooter />
+    </body>
 </template>
 
 <style scoped>
-
+body{
+    background-color: beige;
+}
 </style>

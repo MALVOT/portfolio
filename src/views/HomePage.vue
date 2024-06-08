@@ -12,6 +12,6 @@ import TheFormulaire from '@/components/TheFormulaire.vue';
 </template>
 
 <style scoped>
-h1{ background-color: beige;}
+
 
 </style>

@@ -48,6 +48,8 @@
 </template>
 
 <style scoped>
-form{background-color: beige;}
+form{
+    border: 16px solid;
+}
 
     </style>
